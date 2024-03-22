@@ -47,6 +47,8 @@ class MainActivity : AppCompatActivity() {
 //                    e.printStackTrace()
 //                }
 //            }
+
+//            //run in background thread with coroutine
             lifecycleScope.launch(Dispatchers.Default) {
                 //simulate process in background thread
                 for (i in 0..10) {
